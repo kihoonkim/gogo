@@ -1,0 +1,4 @@
+package: github.com/kihoonkim/gogo
+import:
+- package: github.com/jinzhu/gorm
+  version: v1.0
