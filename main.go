@@ -1,5 +1,10 @@
 package main
 
+import (
+	"github.com/kihoonkim/gogo/webserver"
+)
+
 func main() {
-	println("Hello World")
+	webserver.InitRouter()
+	webserver.Run()
 }
